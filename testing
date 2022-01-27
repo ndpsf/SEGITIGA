@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Membuat Segitiga Dengan Css</title>
+</head>
+<body>
+ 
+	<style type="text/css">
+		.segitiga1{
+			height:0px;
+			width:0px;
+			border-bottom:solid 120px blue;
+			border-left:solid 80px transparent;
+			border-right:solid 80px transparent;
+ 
+			margin-bottom: 20px;
+		}
+ 
+		.segitiga2{
+			height:0px;
+			width:0px;
+			border-left:solid 120px red;
+			border-top:solid 80px transparent;
+			border-bottom:solid 80px transparent;
+			
+			margin-bottom: 20px;
+		}
+ 
+	</style>	
+ 
+ 
+	<h2>Membuat Segitiga Dengan CSS - www..</h2>
+ 
+	<!-- segitiga ke atas -->
+	Segitiga
+	<div class="segitiga1"></div>
+ 
+	<!-- segitiga ke kanan -->
+	Segitiga ke kanan
+	<div class="segitiga2"></div>
+
+ 
+</body>
+</html>
